@@ -14,4 +14,6 @@ $ git submodule update --init
 ```
 Adding a repo as a submodule.
 ==============================
-```git submodule add https://github.com/user/repo.git bundle/repo```
+```console
+$ git submodule add https://github.com/user/repo.git bundle/repo
+```
