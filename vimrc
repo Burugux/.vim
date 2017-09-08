@@ -34,6 +34,9 @@ autocmd FileType help wincmd L
 "text wrap for plain text
 autocmd FileType text setlocal textwidth=78
 
+" dont save .netrwhist history
+let g:netrw_dirhistmax=0
+
 " Favorite filetypes
 set ffs=unix,dos,mac
 
