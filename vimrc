@@ -40,6 +40,8 @@ let g:netrw_dirhistmax=0
 " Favorite filetypes
 set ffs=unix,dos,mac
 
+" spell check for git commits
+autocmd FileType gitcommit setlocal spell
 
 " Go settings
 au BufNewFile,BufRead *.go setlocal noet ts=4 sw=4 sts=4
