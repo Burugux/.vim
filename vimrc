@@ -57,6 +57,11 @@ endif
 nnoremap <Tab> <C-W>w
 nnoremap <S-Tab> <C-W>W
 
+" ==================== Fugitive ====================
+nnoremap <leader>ga :Git add %:p<CR><CR>
+nnoremap <leader>gs :Gstatus<CR>
+nnoremap <leader>gp :Gpush<CR>
+vnoremap <leader>gb :Gblame<CR>
 
 " ==================== Vim-go ====================
 let g:go_fmt_command = "goimports"
