@@ -112,7 +112,6 @@ autocmd FileType go nmap <Leader>c <Plug>(go-coverage-toggle)
 
 "==================== NerdTree ====================
 " For toggling
-nmap <C-n> :NERDTreeToggle<CR>
 noremap <Leader>z :NERDTreeToggle<cr>
 noremap <Leader>f :NERDTreeFind<cr>
 
