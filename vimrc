@@ -25,6 +25,7 @@ set ignorecase
 set incsearch
 set splitright
 set encoding=utf-8
+set splitbelow
 
 " open help vertically
 command! -nargs=* -complete=help Help vertical belowright help <args>
