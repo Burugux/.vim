@@ -57,6 +57,16 @@ endif
 nnoremap <Tab> <C-W>w
 nnoremap <S-Tab> <C-W>W
 
+" ==================== Completion =========================
+" use deoplete for Neovim.
+if has('nvim')
+  let g:deoplete#enable_at_startup = 1
+  let g:deoplete#ignore_sources = {}
+  let g:deoplete#ignore_sources._ = ['buffer', 'member', 'tag', 'file', 'neosnippet']
+  let g:deoplete#sources#go#sort_class = ['func', 'type', 'var', 'const']
+  let g:deoplete#sources#go#align_class = 1
+endif
+
 " ==================== Fugitive ====================
 nnoremap <leader>ga :Git add %:p<CR><CR>
 nnoremap <leader>gs :Gstatus<CR>
