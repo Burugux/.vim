@@ -87,7 +87,7 @@ nnoremap <leader>a :cclose<CR>
                  endfunction
 
 autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
-
+au FileType go nmap <Leader>d <Plug>(go-doc)
 autocmd FileType go nmap <leader>r  <Plug>(go-run)
 autocmd FileType go nmap <leader>t  <Plug>(go-test)
 autocmd FileType go nmap <Leader>c <Plug>(go-coverage-toggle)
